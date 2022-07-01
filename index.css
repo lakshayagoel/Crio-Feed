@@ -1,0 +1,15 @@
+.navbar-brand, #icon {
+  font-size: xx-large;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card-img-top {
+  height: 75vh;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 450px) {
+  .card-img-top {
+      height: 50vh;
+  }
+}
